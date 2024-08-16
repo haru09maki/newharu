@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <script src="classic.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/game1.css">
+
+</head>
+
+    <body onload="firstscript()">
+        <div id="none">
+        <audio controls loop autoplay preload="auto" src="koka.mp3" type="audio/mp3"></audio>
+        </div>
+        <div id="timer">
+             <span id="min">5</span> <font size="30px">分</font>
+             <span id="sec">00</span> <font size="30px">秒</font>
+            <div id="text-button" onclick="clickDisplayAlert()">Click</div>
+            <span id="kai">30</span><font size="12.5px">回</font>
+            
+            </audio>
+            </div>
+    <script>
+       var sou = 30;
+       var kai = document.getElementById("kai");
+       var time = 300;
+       var counter;
+       var min = document.getElementById("min");
+       var sec = document.getElementById("sec");
+       
+    </script>
+    <script>
+        function firstscript(){
+            
+            counter = setInterval( count, 1000);//1秒ごとにcountが動かされる
+        }
+        </script>
+        <script>
+        function count() {
+      if( time === 0 ) {
+      sec.innerHTML = 0;
+      min.innerHTML = 0;
+      alert("起きろや");
+      clearInterval( counter );      
+      window.location.href = 'index.html';
+      } else {
+      time -= 1;
+      sec.innerHTML = time % 60;
+      min.innerHTML = Math.floor( time / 60 );
+      }
+        }
+   
+    </script>
+    <script>
+        function clickDisplayAlert(){
+        kai.innerHTML = sou - 1;
+        sou = sou - 1;
+    if (sou == 0) {
+        alert("良い一日を");
+    window.location.href = 'index.html';
+        }
+        }
+    </script>
+</body>
+
+</html>

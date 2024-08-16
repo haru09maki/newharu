@@ -1,0 +1,39 @@
+#min {
+         color: rgb(190, 243, 66);
+         font-size:60px;
+         position: relative;
+         font-family: fantasy;
+}
+#sec {
+         color: rgb(190, 243, 66);
+         font-size:60px;
+         position: relative;
+         font-family: fantasy;
+}
+#kai {
+    font-size: 50px;
+    color: rgb(219, 45, 45);
+    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+              -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+              0px 1px 0 #FFF,  0-1px 0 #FFF,
+              -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+body{
+    font-family: Arial, 'メイリオ', sans-serif;
+            text-align: center;
+            background-color: rgb(61, 175, 184);
+}
+#text-button {
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+  border: 1px solid #232323;
+  padding: 10px;
+  position: relative;
+  top: 100px;
+  left: 85px;
+}
+#none{
+    display: none;
+}
