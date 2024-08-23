@@ -1,0 +1,38 @@
+#min {
+         color: rgb(253, 173, 82);
+         font-size:60px;
+         position: relative;
+         font-family: fantasy;
+}
+#sec {
+         color: rgb(253, 173, 82);
+         font-size:60px;
+         position: relative;
+         font-family: fantasy;
+}
+body{
+    font-family: Arial, 'メイリオ', sans-serif;
+            text-align: center;
+            background-color: rgb(155, 150, 219);
+}
+#none{
+    display: none;
+}
+p1{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 35px;
+    color: azure;
+}
+#gu-button{
+    position: relative;
+    top:100px
+}
+#tyoki-button{
+    position: relative;
+    top:100px
+}
+#pa-button{
+    position: relative;
+    top:100px
+}

@@ -1,0 +1,37 @@
+#min {
+         color: rgb(253, 173, 82);
+         font-size:60px;
+         position: relative;
+         font-family: fantasy;
+}
+#sec {
+         color: rgb(253, 173, 82);
+         font-size:60px;
+         position: relative;
+         font-family: fantasy;
+}
+body{
+    font-family: Arial, 'メイリオ', sans-serif;
+            text-align: center;
+            background-color: rgb(155, 150, 219);
+}
+#none{
+    display: none;
+}
+p1{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 35px;
+    color: azure;
+}
+#text-button {
+  display: block;
+  cursor: pointer;
+  width: 28px;
+  text-align: center;
+  border: 5px solid #71d86d;
+  padding: 10px;
+  position: relative;
+  top: 140px;
+  left: 150px;
+}
